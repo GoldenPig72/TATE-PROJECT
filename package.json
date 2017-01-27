@@ -1,0 +1,26 @@
+{
+  "name": "TATE-PROJECT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GoldenPig72/TATE-PROJECT.git"
+  },
+  "keywords": [],
+  "author": "Bacon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoldenPig72/TATE-PROJECT/issues"
+  },
+  "homepage": "https://github.com/GoldenPig72/TATE-PROJECT"
+}
