@@ -8,7 +8,9 @@ var port = process.env.PORT || 8080;
 app.get('/', function (req, res) {
 //  res.send('Hello World!')
 
-fs.readFile('index.html', function (err, html) {
+app.use('/tate',express.static('my-angular-page'));
+
+/*fs.readFile('index.html', function (err, html) {
     if (err) {
         throw err; 
     }       
@@ -18,7 +20,7 @@ fs.readFile('index.html', function (err, html) {
         response.end();  
     });
 })
-
+*/
 
 })
 
