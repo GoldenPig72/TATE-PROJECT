@@ -6,11 +6,16 @@ var app = express()
 var port = process.env.PORT || 8080;
 
 app.get('/', function (req, res) {
-//  res.send('Hello World!')
+res.send('Hello World!')
+})
 
 app.use('/tate',express.static('my-angular-page'));
 
 /*fs.readFile('index.html', function (err, html) {
+=======
+/**
+fs.readFile('index.html', function (err, html) {
+>>>>>>> origin/master
     if (err) {
         throw err; 
     }       
@@ -21,8 +26,6 @@ app.use('/tate',express.static('my-angular-page'));
     });
 })
 */
-
-})
 
 app.listen(port, function () {
   console.log('Example app listening on port: ' + port)
